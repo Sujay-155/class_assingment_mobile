@@ -1,0 +1,114 @@
+
+
+.flex-container{
+    margin-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+    gap: 5px;
+    
+
+}
+
+img{
+
+    height: 11em;
+    width: 18em;
+}
+
+figcaption{
+    color: white;
+}
+
+ .flex-items{
+    border: 1px solid white;
+    
+} 
+
+h3{
+    text-align: center;
+}
+
+footer{
+     
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      height: fit-content;
+      width: 100%;
+      background-color: ghostwhite;
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }
+
+
+ .index{
+    margin-top: 155px; 
+ } 
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+form {
+    align-self: center;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    padding-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px
+        rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-left: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+ 
